@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
-
+  // buildAssetsDir: '/test/',
  
   // mode: 'spa',
   // router: {
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 
   app: {
     // baseURL: "/mrchoissi/test/",
-    // buildAssetsDir: "/_nuxt/",
+    buildAssetsDir: "/nuxt/",
     // cdnURL: "",
     // head 기본 구성 설정
     head: {
