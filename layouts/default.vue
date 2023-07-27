@@ -6,10 +6,10 @@
   </div>
 </template>
 <script>
-import AppHeader from 'layouts/header.vue'
+import AppHeader from "layouts/header.vue";
 export default {
   components: {
     AppHeader
   }
-}
+};
 </script>
